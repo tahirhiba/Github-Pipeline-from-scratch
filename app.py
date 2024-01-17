@@ -43,6 +43,6 @@ def deployment_webhook():
     # Traitement spécifique pour les événements de déploiement ici
     # Par exemple : déployer une mise à jour de l'application
     return jsonify({'status': 'Webhook de déploiement reçu!'}), 200
-#
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001)
