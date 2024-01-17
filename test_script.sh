@@ -7,4 +7,4 @@ git pull origin testing
 pip install -r requirement.txt
 
 # Exécuter les tests (remplacez "commande_de_test" par la commande réelle pour exécuter vos tests)
-flask run --port=5001
+flask run --port=5000
